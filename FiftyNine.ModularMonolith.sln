@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiftyNine.ModularMonolith.Api", "src\FiftyNine.ModularMonolith.Api\FiftyNine.ModularMonolith.Api.csproj", "{69319098-9D07-4334-AB2E-470B005D3EC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{D79258F5-A89F-4908-984F-11FDC0E8BA1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9FD31203-E70D-4874-A219-99DBA00E4650}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiftyNine.ModularMonolith.Api.Tests", "tests\FiftyNine.ModularMonolith.Api.Tests\FiftyNine.ModularMonolith.Api.Tests.csproj", "{25A0EA32-E4E0-4967-908A-8AEDF545C2CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiftyNine.ModularMonolith.UserManagement.Module", "src\FiftyNine.ModularMonolith.UserManagement.Module\FiftyNine.ModularMonolith.UserManagement.Module.csproj", "{DB30BE44-EB30-4C73-AB3C-F901097F7285}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiftyNine.ModularMonolith.UserManagement", "src\FiftyNine.ModularMonolith.UserManagement\FiftyNine.ModularMonolith.UserManagement.csproj", "{E7290142-80EA-4D03-8472-902FE6AD0E66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{E702A278-D4D4-42EA-ADAB-CD1135C05291}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiftyNine.ModularMonolith.OrderManagement.Module", "src\FiftyNine.ModularMonolith.OrderManagement.Module\FiftyNine.ModularMonolith.OrderManagement.Module.csproj", "{292DF2D5-2B5C-4954-B0BD-A4EECE2A2B9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiftyNine.ModularMonolith.OrderManagement.Tests", "tests\FiftyNine.ModularMonolith.OrderManagement.Tests\FiftyNine.ModularMonolith.OrderManagement.Tests.csproj", "{BD548542-7C58-45C1-AED9-9EAC1D7B3501}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiftyNine.ModularMonolith.UserManagement.Tests", "tests\FiftyNine.ModularMonolith.UserManagement.Tests\FiftyNine.ModularMonolith.UserManagement.Tests.csproj", "{7FDFC574-506E-44CA-8C93-9C76CC5FB6FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69319098-9D07-4334-AB2E-470B005D3EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69319098-9D07-4334-AB2E-470B005D3EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69319098-9D07-4334-AB2E-470B005D3EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69319098-9D07-4334-AB2E-470B005D3EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25A0EA32-E4E0-4967-908A-8AEDF545C2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A0EA32-E4E0-4967-908A-8AEDF545C2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A0EA32-E4E0-4967-908A-8AEDF545C2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A0EA32-E4E0-4967-908A-8AEDF545C2CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB30BE44-EB30-4C73-AB3C-F901097F7285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB30BE44-EB30-4C73-AB3C-F901097F7285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB30BE44-EB30-4C73-AB3C-F901097F7285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB30BE44-EB30-4C73-AB3C-F901097F7285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7290142-80EA-4D03-8472-902FE6AD0E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7290142-80EA-4D03-8472-902FE6AD0E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7290142-80EA-4D03-8472-902FE6AD0E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7290142-80EA-4D03-8472-902FE6AD0E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{292DF2D5-2B5C-4954-B0BD-A4EECE2A2B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292DF2D5-2B5C-4954-B0BD-A4EECE2A2B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292DF2D5-2B5C-4954-B0BD-A4EECE2A2B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{292DF2D5-2B5C-4954-B0BD-A4EECE2A2B9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD548542-7C58-45C1-AED9-9EAC1D7B3501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD548542-7C58-45C1-AED9-9EAC1D7B3501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD548542-7C58-45C1-AED9-9EAC1D7B3501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD548542-7C58-45C1-AED9-9EAC1D7B3501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FDFC574-506E-44CA-8C93-9C76CC5FB6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FDFC574-506E-44CA-8C93-9C76CC5FB6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FDFC574-506E-44CA-8C93-9C76CC5FB6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDFC574-506E-44CA-8C93-9C76CC5FB6FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{25A0EA32-E4E0-4967-908A-8AEDF545C2CB} = {9FD31203-E70D-4874-A219-99DBA00E4650}
+		{DB30BE44-EB30-4C73-AB3C-F901097F7285} = {D79258F5-A89F-4908-984F-11FDC0E8BA1C}
+		{E7290142-80EA-4D03-8472-902FE6AD0E66} = {E702A278-D4D4-42EA-ADAB-CD1135C05291}
+		{292DF2D5-2B5C-4954-B0BD-A4EECE2A2B9E} = {D79258F5-A89F-4908-984F-11FDC0E8BA1C}
+		{BD548542-7C58-45C1-AED9-9EAC1D7B3501} = {9FD31203-E70D-4874-A219-99DBA00E4650}
+		{7FDFC574-506E-44CA-8C93-9C76CC5FB6FE} = {9FD31203-E70D-4874-A219-99DBA00E4650}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {751300E4-77C9-4AF6-93F1-E4A6F05FF64F}
+	EndGlobalSection
+EndGlobal
