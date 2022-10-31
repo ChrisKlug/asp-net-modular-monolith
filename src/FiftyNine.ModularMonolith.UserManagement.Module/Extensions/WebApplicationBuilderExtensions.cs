@@ -9,8 +9,9 @@ public static class WebApplicationBuilderExtensions
         builder.Services.AddControllers()
                         .AddApplicationPart(typeof(WebApplicationBuilderExtensions).Assembly);
 
-        builder.Services.AddSingleton<Data.IUsers, Users>()
-                        .AddSingleton(x => (IUsers)x.GetRequiredService<Data.IUsers>());
+        builder.Services.AddSingleton<Users>()
+                        .AddSingleton<Data.IUsers>(x => x.GetRequiredService<Users>())
+                        .AddSingleton<IUsers>(x => x.GetRequiredService<Users>());
 
         return builder;
     }
