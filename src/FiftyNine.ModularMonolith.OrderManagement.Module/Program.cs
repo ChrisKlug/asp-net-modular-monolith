@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.AddOrdersModule();
+builder.AddOrderManagement();
 
 var usersFake = A.Fake<IUsers>();
 A.CallTo(() => usersFake.WithId(1)).Returns(User.Create(1, "John", "Doe"));

@@ -4,7 +4,7 @@ namespace FiftyNine.ModularMonolith.OrderManagement.Module.Extensions;
 
 public static class WebApplicationBuilderExtensions
 {
-    public static WebApplicationBuilder AddOrdersModule(this WebApplicationBuilder builder)
+    public static WebApplicationBuilder AddOrderManagement(this WebApplicationBuilder builder)
     {
         builder.Services.AddControllers()
                         .AddApplicationPart(typeof(WebApplicationBuilderExtensions).Assembly);

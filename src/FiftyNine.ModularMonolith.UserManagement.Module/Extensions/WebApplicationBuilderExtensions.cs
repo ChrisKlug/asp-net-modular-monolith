@@ -4,7 +4,7 @@ namespace FiftyNine.ModularMonolith.UserManagement.Module.Extensions;
 
 public static class WebApplicationBuilderExtensions
 {
-    public static WebApplicationBuilder AddUsersModule(this WebApplicationBuilder builder)
+    public static WebApplicationBuilder AddUserManagement(this WebApplicationBuilder builder)
     {
         builder.Services.AddControllers()
                         .AddApplicationPart(typeof(WebApplicationBuilderExtensions).Assembly);

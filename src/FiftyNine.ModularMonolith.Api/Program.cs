@@ -5,8 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.AddOrdersModule();
-builder.AddUsersModule();
+builder.AddOrderManagement();
+builder.AddUserManagement();
 
 var app = builder.Build();
 

@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.AddUsersModule();
+builder.AddUserManagement();
 
 var app = builder.Build();
 
