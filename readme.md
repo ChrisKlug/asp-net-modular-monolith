@@ -1,6 +1,6 @@
 # ASP.NET Core Modular Monolith
 
-This repo contains the code used in my blog post about building modular monoliths in ASP.NET Core. If that sounds interesting, have a look at https://fearofoblivion.com/build-a-modular-monolith-first.
+This repo contains the code used in my blog post about building modular monoliths in ASP.NET Core. If that sounds interesting, have a look at [https://fearofoblivion.com/build-the-modular-monolith-first](https://www.fearofoblivion.com/build-a-modular-monolith-first).
 
 ## Getting started
 
